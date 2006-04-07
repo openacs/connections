@@ -1,0 +1,38 @@
+#connections {
+	opacity:0;
+	line-height: 25px;
+	padding: 5px;
+	margin: 0;
+	min-height:100px;
+	width:95%;
+	vertical-align: middle;
+}
+
+.oneobject {
+	clear: both;
+	border-top: 1px solid #ccc;
+	min-height: 3.3em; /*for the hover*/
+}
+
+.oneobject:hover {
+	background: #E8ECF4;
+}
+
+.objtitle, .objdetails {
+	float:left;
+	display:block;
+	text-decoration: none;
+}
+
+.objfulldetails {
+	opacity:0;
+	clear:both;
+	width:100%;
+	padding-left:5px;
+	padding-top:10px;
+	padding-bottom: 5px;
+}
+
+#objectslist a, .oneobject a , .oneobject span {
+	padding: 15px 4px 4px 4px;
+}
