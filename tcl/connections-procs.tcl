@@ -69,7 +69,7 @@ ad_proc -public connections::getlist {
 	set category_ids [category::get_mapped_categories -tree_id $tree_id $object_id]
 
 	# generate the list of connection keywords with the appropriate links for display
-	set connections [list]
+	set connections {}
 	set preurl [connections::get_url]
 
 	foreach id $category_ids {
