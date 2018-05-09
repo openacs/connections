@@ -12,7 +12,7 @@ set category_name [category::get_name $category_id]
 
 db_multirow objectlist "getobjects" "select a.object_id, b.title, a.category_id, b.object_type, c.pretty_name from category_object_map a, acs_objects b, acs_object_types c where a.object_id=b.object_id and b.object_type=c.object_type and a.category_id=:category_id" { }
 
-set objlist {}
+set objlist [list]
 
 template::multirow foreach objectlist {
 	lappend objlist "$title ($pretty_name)"
