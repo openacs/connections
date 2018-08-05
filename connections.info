@@ -9,7 +9,7 @@
     
     <version name="0.1d" url="http://openacs.org/repository/download/apm/connections-0.1d.apm">
         <owner url="mailto:ham@solutiongrove.com">Hamilton Chua</owner>
-        <summary>A package that uses the categories package to store and map connection keywords (aka tags) to objects.</summary>
+        <summary>A package that uses the categories package to store and map connection keywords (a.k.a. tags) to objects.</summary>
         <vendor url="http://www.solutiongrove.com">Solutiongrove</vendor>
         <maturity>0</maturity>
 
